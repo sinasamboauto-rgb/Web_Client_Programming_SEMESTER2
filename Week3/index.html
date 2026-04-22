@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navi">
+
+            <a href="media.html">Media</a>
+            <a href="form.html">Form</a>
+
+        </nav>
+        <h1>TP2 Session 3 <mark>FORM</mark></h1>
+    </header>
+
+    <main>
+
+        <div class="form-container">
+            <section>
+
+                <form action="#">
+
+                    <h2>Inputs:</h2>
+
+                    <label for="fname">Full Name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Enter Fullname" required><br><br>
+
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age" placeholder="Enter Age" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter email" required><br><br>
+
+                    <label for="passw">Password:</label><br>
+                    <input type="password" id="passw" name="password" placeholder="Enter password" required><br><br>
+
+                    <label for="phonenum">Phone Number:</label><br>
+                    <input type="tel" id="phonenum" name="phonenumber" placeholder="Enter Phone Number"><br><br>
+
+                    <label for="birthdate">Date of Birth</label><br>
+                    <input type="date" id="birthdate" name="birthdate"><br><br>
+
+                    <hr>
+
+
+                </form>
+
+            </section>
+
+            <section>
+
+                <form action="#">
+
+                    <h2>Gender:</h2>
+                    <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other" required><label
+                        for="other">Other</label><br><br>
+
+                </form>
+
+                <hr>
+
+            </section>
+
+            <section>
+
+                <form action="#">
+
+                    <h2>Checkboxes:</h2>
+
+                    <input type="checkbox" id="html" name="tech" value="HTML"><label for="html">HTML</label><br>
+                    <input type="checkbox" id="css" name="tech" value="CSS"><label for="css">CSS</label><br>
+                    <input type="checkbox" id="java" name="tech" value="JavaScript"><label
+                        for="java">JavaScript</label><br>
+                    <input type="checkbox" id="react" name="tech" value="React"><label for="react">React</label><br><br>
+
+                    <hr>
+
+                </form>
+
+            </section>
+
+            <section>
+
+                <form action="#">
+
+                    <h2>Drop Down:</h2>
+
+                    <label for="course">Course: </label>
+                    <select name="course" id="course">
+
+                        <option value="web-dev">Web Development</option>
+                        <option value="computer-science">Computer Science</option>
+                        <option value="networking">Networking</option>
+                        <option value="cyber-sec">Cyber Security</option>
+
+                    </select>
+
+                </form>
+
+                <hr>
+
+            </section>
+
+            <section>
+
+                <form action="#">
+
+                    <h2>Text Area</h2>
+
+                    <textarea name="message" id="msg" rows="4" cols="50"></textarea><br><br>
+
+                    <hr>
+
+                    <button type="submit">Register now </button>
+
+                </form>
+
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Sina Sambo. All rights reserved.</p>
+    </footer>
+
+
+
+
+</body>
+
+</html>

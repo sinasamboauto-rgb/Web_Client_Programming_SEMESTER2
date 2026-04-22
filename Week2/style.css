@@ -1,0 +1,19 @@
+body{
+    background-color: rgba(0, 0, 0, 0.861);
+    color: white;
+}
+
+
+#eldenring{
+    border-radius: 10px;
+}
+#cubeanim{
+    border-radius: 10px;
+}
+hr{
+    opacity: 50%;
+}
+.navi>a{
+
+    color: rgb(255, 0, 0);
+}

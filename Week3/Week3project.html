@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="project.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>Registration Form</h1>
+      </header>
+
+      <div class="form-container">
+        <section>
+          <form action="#">
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="First Name"
+            />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Last Name"
+            />
+            <input type="email" id="email" name="email" placeholder="Email" />
+            <input
+              type="tel"
+              id="phonenum"
+              name="phonenumber"
+              placeholder="Enter Phone Number"
+            />
+            <input
+              type="password"
+              id="passw"
+              name="password"
+              placeholder="Password"
+            />
+
+            <div class="course">
+              <h2>Course:</h2>
+              <select name="course" id="course">
+                <option value="web-dev">Web Development</option>
+                <option value="computer-science">Computer Science</option>
+                <option value="networking">Networking</option>
+                <option value="cyber-sec">Cyber Security</option>
+              </select>
+            </div>
+
+            <button type="submit">Register now</button>
+            <button type="reset">Reset</button>
+          </form>
+        </section>
+      </div>
+
+      <footer>Designed by S.Sambo</footer>
+    </main>
+  </body>
+</html>
