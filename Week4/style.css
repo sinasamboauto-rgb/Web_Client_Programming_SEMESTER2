@@ -1,6 +1,7 @@
-body{
-    background-color: rgba(0, 0, 0, 0.861);
-    color: black;
+body {
+    background-color: rgba(0,0,0,0.9);
+    color: #eaeaea;
+    font-family: Arial, sans-serif;
 }
 
 * {
@@ -10,7 +11,7 @@ body{
 }
 
 .flexbox{
-    background: rgba(194, 194, 194, 0.199);
+
     height: 500px;
     display: flex;
     align-items: center;
@@ -22,7 +23,7 @@ body{
     max-height: 100%;
 }
 
-.flexitem{
+/*.flexitem{
     background:white;
     width: 15%;
     height: 80%;
@@ -33,48 +34,111 @@ body{
     gap: 20px;
     border-radius: 20px;
     border: 3px solid black;
+    color: black;
 
+}*/
+.flexitem {
+    background: #161a22;
+    width: 15%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: 0.2s ease;
+}
+.flexitem:hover {
+    transform: translateY(-5px);
+    border-color:  rgba(255,255,255,1);
+    box-shadow: 0 10px 25px rgb(255, 255, 255,0.2);
 }
 .productimg{
-    width: 90%;
+    width: 100%;
     height: 70%;
-
-
 }
 #blackhoodie{
     width: 100%;
     max-height: 100%;
-    border-radius: 20px;
-    border: 3px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 #whitehoodie{
     width: 100%;
     max-height: 100%;
-    border-radius: 20px;
-    border: 3px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 #greyhoodie{
     width: 100%;
     max-height: 100%;
-    border-radius: 20px;
-    border: 3px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 #bluehoodie{
     width: 100%;
     max-height: 100%;
-    border-radius: 20px;
-    border: 3px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 #redhoodie{
     width: 100%;
     max-height: 100%;
-    border-radius: 20px;
-    border: 3px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 
-button{
-    width: 50%;
+button {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #3b82f6;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 5px;
 
+}
+
+button:hover {
+    background: #2563eb;
+}
+
+.main-header {
+    background: #0a0c10;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.main-header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+
+}
+.main-header li{
+    position: relative;
+    right: 50px;
+    padding: 20px;
+    border-radius: 6px;
+}
+.main-header li:hover{
+    background-color: rgba(255, 255, 255, 0.06);
+
+
+}
+
+.main-header a{
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
 }
